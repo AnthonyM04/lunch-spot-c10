@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { StyleSheet, View, Text, ScrollView } from 'react-native';
 import RestaurantCard from './RestaurantCard.jsx';
 
-export default function RestaurantList() {
+export default function RestaurantList () {
 
   const [foodList, setFoodList] = useState()
 

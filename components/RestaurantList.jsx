@@ -10,6 +10,7 @@ export default function RestaurantList () {
     fetch('https://my-first-firestore-bc.web.app/restaurants')
       .then(resp => resp.json())
       .then(setFoodList)
+      // .then(data => setFoodList(data.sort(a,b) => {b.rating - a.rating}))
       .catch(alert)
   }, [])
 

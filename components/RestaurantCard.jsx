@@ -1,6 +1,6 @@
-import { StyleSheet, View, Text, Image } from 'react-native';
+import { View, Text, Image, StyleSheet } from "react-native";
 
-export default function RestaurantCard({ food }) {
+export default function RestaurantCard({food}) {
   return (
     <View style={styles.card}>
       <Text style={styles.main}>{food.name}</Text>
@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
     marginTop: 16,
     padding: 16,
     borderRadius: 10,
-    borderColor: '#646D7E',
+    borderColor: '#F3F4F5',
     borderWidth: 2,
     backgroundColor: 'white',
     alignItems: 'center',

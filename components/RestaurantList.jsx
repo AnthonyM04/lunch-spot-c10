@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { StyleSheet, View, Text, ScrollView } from 'react-native';
-import RestaurantCard from './RestaurantCard';
+import RestaurantCard from './RestaurantCard.jsx';
 
 export default function RestaurantList() {
 
@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 30,
     fontWeight: 700,
-    color: '#151B54',
+    color: 'white',
   },
   list: {
     width: '100%',

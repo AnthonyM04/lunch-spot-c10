@@ -1,18 +1,18 @@
-import { StyleSheet, View } from 'react-native';
+import { StyleSheet, View, Text, ScrollView } from 'react-native';
 import RestaurantList from './components/RestaurantList';
 
 export default function App() {
-  return (
+  return(
     <View style={styles.container}>
-      <RestaurantList />
+      <RestaurantList/>
     </View>
-  );
+  )
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'skyblue',
+    backgroundColor: 'black',
     alignItems: 'center',
     justifyContent: 'center',
   },
